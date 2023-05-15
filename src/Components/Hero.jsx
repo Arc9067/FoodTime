@@ -29,7 +29,7 @@ const Hero = () => {
             className="input-div bg-white border bg-opacity-[0.3] flex-wrap border-primary rounded-full flex justify-between items-center  gap-3"
             onClick={() => inputRef.current.focus()}
           >
-            <div className="in px-2 flex items-center gap-3">
+            <div className="in px-3 flex items-center gap-3">
               <BiCurrentLocation
                 className="text-4xl bg-secondary rounded-full small:hidden md:block
               "
@@ -44,9 +44,9 @@ const Hero = () => {
               />
             </div>
             <button className="px-8 py-3 rounded-full bg-primary change  capitalize text-white font-medium ">
-              <a className="text-lg flex gap-3 items-center" href="">
+              <h2 className="text-lg flex gap-3 items-center">
                 <BiSearch /> search
-              </a>
+              </h2>
             </button>
           </div>
         </div>
