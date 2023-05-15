@@ -13,6 +13,6 @@ export default [
   },
   {
     name: "Social",
-    links: [{ link: "Intagram" }, { link: "facebook" }, { link: "Twitter" }],
+    links: [{ link: "Intagram" }, { link: "Facebook" }, { link: "Twitter" }],
   },
 ];
