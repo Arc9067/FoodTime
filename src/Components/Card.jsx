@@ -10,7 +10,7 @@ const Card = () => {
             const { img, text, header, bg } = ele;
             return (
               <div
-                className={`cd py-8 px-4 gap-6 flex transition hover:bg-[#396C03] hover:bg-opacity-5  flex-col items-start ${bg} bg-opacity-5`}
+                className={`cd py-8 px-4 gap-6 flex transition hover:bg-[#396C03] hover:rounded-md hover:bg-opacity-5  flex-col items-start ${bg} bg-opacity-5`}
                 key={index}
               >
                 <img src={img} alt="ff" className="mx-0 w-[3rem]" />
