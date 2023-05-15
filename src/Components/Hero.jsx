@@ -26,7 +26,7 @@ const Hero = () => {
             Freshly made food delivered to your door.
           </p>
           <div
-            className="input-div small:hidden md:flex  bg-white border bg-opacity-[0.3] flex-wrap border-primary rounded-full flex justify-between items-center  gap-3"
+            className="input-div md:flex  bg-white border bg-opacity-[0.3] flex-wrap border-primary rounded-full flex justify-between items-center  gap-3"
             onClick={() => inputRef.current.focus()}
           >
             <div className="in px-2 flex items-center gap-3">
