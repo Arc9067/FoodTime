@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  html {
+    @apply h-screen w-full bg-primary bg-opacity-[0.01] font-Poppins selection:text-secondary selection:bg-primary;
+  }
+  .bgopa {
+    @apply bg-primary bg-opacity-[0.1];
+  }
+  .number-count {
+    background: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    );
+    backdrop-filter: blur(6px);
+  }
+  img {
+    @apply mx-auto;
+  }
+  p {
+    @apply !max-w-[500px] text-para;
+  }
+  .change {
+    @apply transition hover:bg-secondary;
+  }
+}
